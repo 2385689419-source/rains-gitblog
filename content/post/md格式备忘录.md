@@ -2,13 +2,13 @@
 title: md 格式学习
 description: first try
 
-date: 2026-04-013T19:37:52+08:00
-lastmod: 2026-04-013T19:37:52+08:00
+date: 2026-04-13T19:37:52+08:00
+lastmod: 2026-04-13T19:37:52+08:00
 
 
 tags: 
-    -markdown
-    -syntax
+    - markdown
+    - syntax
 categories:
   - basic note
 
