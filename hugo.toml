@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en'
-title = 'My New Hugo Site'
+title = 'Rain's Blog'
 theme = 'hugo-theme-reimu'
 
 defaultContentLanguage = 'en'
@@ -38,3 +38,7 @@ baseName = "algolia"
 isPlainText = true
 mediaType = "application/json"
 notAlternative = true
+
+[author]
+name = 'Rain'
+home = "https://github.com/2385689419-source"
