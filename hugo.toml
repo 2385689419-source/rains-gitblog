@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en'
-title = 'Rain's Blog'
+title = "Rain's Blog"
 theme = 'hugo-theme-reimu'
 
 defaultContentLanguage = 'en'
