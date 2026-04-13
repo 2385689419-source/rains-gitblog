@@ -1,6 +1,6 @@
 ---
 title: md 格式学习
-description： first try
+description: first try
 
 date: 2026-04-013T19:37:52+08:00
 lastmod: 2026-04-013T19:37:52+08:00
