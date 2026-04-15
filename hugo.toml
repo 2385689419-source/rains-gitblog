@@ -39,6 +39,3 @@ isPlainText = true
 mediaType = "application/json"
 notAlternative = true
 
-[author]
-name = 'Rain'
-home = "https://github.com/2385689419-source"
