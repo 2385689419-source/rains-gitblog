@@ -444,10 +444,10 @@ utterances:
 ########################################
 
 algolia_search:
-  enable: false
-  appID:
-  apiKey:
-  indexName:
+  enable: true
+  appID: VPY6A5GWN5
+  apiKey: 6358ecfe575d3de9e1c6897705b18532
+  indexName: blog
   hits:
     per_page: 10
 
