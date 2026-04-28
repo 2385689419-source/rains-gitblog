@@ -1,0 +1,15 @@
+{{- $limit := 200 -}}
+{{- $pages := where .Page.Site.RegularPages "Section" "in" .Site.Params.mainSections -}}
+[
+{{- range $i, $p := $pages }}
+  {{- if ne $i 0 }},{{ end }}
+  {
+    "objectID": {{ sha1 $p.RelPermalink | jsonify }},
+    "permalink": {{ $p.RelPermalink | jsonify }},
+    "title": {{ $p.Title | jsonify }},
+    "content": {{ if $p.Params.description }}{{ $p.Params.description | plainify | truncate $limit | jsonify }}{{ else if $p.Summary }}{{ $p.Summary | plainify | truncate $limit | jsonify }}{{ else }}{{ $p.Plain | plainify | truncate $limit | jsonify }}{{ end }},
+    "date": {{ $p.Date.Format $.Site.Params.timeFormat | jsonify }},
+    "updated": {{ $p.Lastmod.Format $.Site.Params.timeFormat | jsonify }}
+  }
+{{- end }}
+]
