@@ -1,9 +1,9 @@
 ---
-title: md 格式学习
-description: first try
+title: cg 实验六
+description: 路径数
 
-date: 2026-04-13T19:37:52+08:00
-lastmod: 2026-04-13T19:37:52+08:00
+date: 2026-05-30T19:37:52+08:00
+lastmod: 2026-05-30T19:37:52+08:00
 
 
 tags: 
